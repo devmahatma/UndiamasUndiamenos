@@ -2,6 +2,9 @@ html {
   height: 100%;
   width: 100%;
 }
+.navbar {
+  text-align: center;
+}
 
 body {
   background-color: black;
