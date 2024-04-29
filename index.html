@@ -23,46 +23,47 @@
 </head>
 <header>
   <!-- barra de navegación -->
-  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-    <section style="text-align: center;" class="logo">
-      <a class="logo" style="text-align: center;" href="index.html">
-        <img class="logo" style="text-align: center;" src="static/logoblanco1.png" width="80" height="64">
+  <nav class="navbar navbar-expand-lg navbar bg-primary">
+    <div class="container-fluid">
+      <a class="logo" href="index.html">
+        <img class="logo" style=" text-align:center; width: 100px; height: 100px;" src="static/logoblanco1.png"
       </a>
-      <br>
-    <div style="text-align: center;" class="container-fluid navbar-expand-lg">
-      <button style="text-align: center;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <br>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <br>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" style="color: white;" href="index.html"><b>Acerca de UDMUDM</b></a>
+            <a class="nav-link" href="#">Acerca de UDMUDM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: white;" href="sobre_el_autor.html"><b>Sobre el Autor</b></a>
+            <a class="nav-link" href="#">Sobre el autor</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: white;" href="publicacion_de_la_obra.html"><b>Publicación de la Obra</b></a>
+            <a class="nav-link" href="#">Obra de teatro</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: white;" href="obra_de_teatro.html"><b>Obra de Teatro</b></a>
+            <a class="nav-link" href="#">Publicación de la obra</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: white;" href="proyecto_cinematografico.html"><b>Proyecto cinematográfico</b></a>
+            <a class="nav-link" href="#">Proyecto cinematográfico</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: white;" href="proyecto_2030.html"><b>Proyecto 2030</b></a>
+            <a class="nav-link" href="#">Proyecto 2030</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: white;" href="#contactanos"><b>Contáctanos</b></a>
+            <a class="nav-link" href="#">Contáctanos</a>
           </li>
         </ul>
       </div>
     </div>
-    </section>
-    <br>
   </nav>
 </header>
 <body>
@@ -76,7 +77,8 @@
     <br>
   </section>
   <!-- carrusell de imagenes -->
-  <div class="carrosell" style="background-color: black;">
+
+  <div class="carousel" style="background-color: black;">
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -122,6 +124,7 @@
       </button>
     </div>
   </div>
+  
 <section style="background-color: black;">
   <section  class="presentacion">
     <br>
