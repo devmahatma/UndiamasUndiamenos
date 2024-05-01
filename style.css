@@ -3,9 +3,14 @@ html {
   width: 100%;
 }
 
+@
+.logo {
+}
+
 .carousel {
   transition-duration: 0.4s;
 }
+
 .presentacion {
   margin-left: 20px;
   margin-right: 20px;
