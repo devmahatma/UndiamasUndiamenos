@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nota = $_POST["nota"];
 
     // Correo electrónico al que se enviará la información del formulario
-    $destinatario = "tucorreo@example.com";
+    $destinatario = "juanbenavidesavila@gmail.com";
 
     // Asunto del correo electrónico
     $asunto = "Nuevo mensaje de contacto";
