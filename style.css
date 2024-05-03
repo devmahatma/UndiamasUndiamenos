@@ -3,6 +3,11 @@ html {
   width: 100%;
 }
 
+.carousel-item {
+  transition: opacity 1s ease-in-out;
+}
+
+
 .presentacion {
   margin-left: 20px;
   margin-right: 20px;
