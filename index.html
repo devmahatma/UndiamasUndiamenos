@@ -221,6 +221,8 @@
             <br>
             <br>
             <br>
+            <br>
+            <br>
             <img style="text-align: center;" src="static/escritor.jpg" class="img-fluid rounded-start" alt="...">
           </div>
           <section style="text-align: center;">
@@ -372,34 +374,52 @@
       <br>
     </div>
   </section>
-  <section style="background-color: #007bff; text-align: center;" id="contactanos">
+ <section style="background-color: #007bff;">
+  <section class="presentacion" id="contact" style="text-align: center;" id="contactanos">
     <h1 style="text-align: center; color:white">Contáctanos</h1>
-    <form action="mailto:juanbenavidesavila@gmail.com" method="post" enctype="text/plain">
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-
-        <label for="apellido">Apellido:</label><br>
-        <input type="text" id="apellido" name="apellido" required><br><br>
-
-        <label for="mail">Email:</label><br>
-        <input type="email" id="mail" name="mail" required><br><br>
-
-        <label for="nota">Nota:</label><br>
-        <textarea id="nota" name="nota" rows="4" cols="50"></textarea><br><br>
-
-        <input type="submit" value="Enviar">
-    </form>
-
-       
-
-    
-    <div class="content d-flex flex-column justify-content-center">
-    <b style="text-align: center; color:white">La difusión digital de la obra artística "Un día mas, un día menos" de Ángel Roberto Ordoñez Rodríguez forma parte de las alianzas estratégicas para lograr el objetivo de Paz, Justicia e Instituciones Sólidas, instaurado en la Agenda 2030 de la Organización de las Naciones Unidas para un desarrollo sustentable mediante un Nuevo Orden Mundial.</b>
-    </div>
-    <br>
-    <div class="content d-flex flex-column justify-content-center">
-    <b style="text-align: center; color:white">Si desea enviar un comentario, proponer una alianza o externar alguna duda puede hacerlo por este medio</b>
-    </div>
+            <br>
+            <b style="text-align: center; color:white">La difusi&oacute;n digital de la obra art&iacute;stica "Un d&iacute;a mas, un d&iacute;a menos" de &Aacute;ngel Roberto Ordo&ntilde;ez Rodr&iacute;guez forma parte de las alianzas estrat&eacute;gicas para lograr el objetivo de Paz, Justicia e Instituciones S&oacute;lidas, instaurado en la Agenda 2030 de la Organizaci&oacute;n de las Naciones Unidas para un desarrollo sustentable mediante un Nuevo Orden Mundial.</b>
+            <br>
+            <b style="text-align: center; color:white">Si desea enviar un comentario, proponer una alianza o externar alguna duda puede hacerlo por este medio.</b>
+        <br>
+        <br>
+         <div class="form">
+          <form action="mailto:contacto@undiamasundiamenos.mx" method="post" enctype="text/plain">
+              <div class="row g-2">
+                <div class="col-md-6">
+                   <input type="text" name="name" class="form-control"  placeholder="Nombre" required >
+                </div>
+               <br>
+                <div class="col-md-6">
+                   <input type="text" class="form-control" name="email" placeholder="Apellido" required >
+                </div>
+               <br>
+                <div class="col-md-6">
+                   <input type="text" class="form-control" name="email" placeholder="Correo Electr&oacute;nico" required>
+                </div>
+               <br>
+                <div class="col-md-6">
+                   <input type="text" class="form-control" name="email" placeholder="Tel&eacute;fono" required>
+                </div>
+                </div>
+               <br>
+               <div class="form-group">
+                  <input type="text" class="form-control" name="subject" placeholder="Asunto" required>
+               </div>
+              <br>
+               <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Comentario" required></textarea>
+               </div>
+              <br>
+               <div class="mb-3">
+                  <div id="resultados_contactenos_web" class="resultados_contactenos_web"></div>
+               </div>
+              <br>
+               <div class="text-center">
+                 <button type="submit" value="Enviar" class="btn btn-light" style="color: #007bff;">ENVIAR</button></a>  
+               </div>
+          </form>
+       </div>
       <br>
       <br>
       <div style="text-align: center;">
@@ -415,6 +435,7 @@
     </div>
     <br>
   </section>
+</section>
     <section style="background-color: white; text-align: center;" id="colaboraciones">
       <br>
       <b style="text-align: center; color:#007bff">Coordinación General Colectivo Arte Sin Frontera</b>
