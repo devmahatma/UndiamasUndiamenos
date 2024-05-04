@@ -16,6 +16,44 @@ html {
   text-align: right;
 }
 
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content {
+  flex-direction: column-reverse;
+  gap: var(--gutter-small);
+}
+.footer-text {
+  text-align: center;
+}
+
+.footer-text {
+  font-size: var(--text-small);
+}
+
+.footer-text a {
+  color: var(--sub);
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--gutter-small);
+  list-style-type: none;
+}
+
+.footer-link img {
+  block-size: 50px;
+  inline-size: 50px;
+}
+
+body.dark .footer-link img {
+  filter: invert(1);
+}
+
+
 
 
 
