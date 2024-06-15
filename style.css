@@ -3,6 +3,22 @@ html {
   width: 100%;
 }
 
+/* Media query para pantallas de celular */
+@media (max-width: 767px) {
+    .offcanvas {
+        right: 0;
+        left: unset;
+        margin-top: auto;
+        height: 100vh
+    }
+
+    .offcanvas-body {
+        text-align: right;
+        margin-top: auto;
+        height: 100vh
+    }
+}
+
 .carousel-item {
   transition: opacity 1s ease-in-out;
 }
